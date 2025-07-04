@@ -1,0 +1,91 @@
+/* Custom styles for ak23stk homepage inspired by modern music/software marketplaces */
+
+/* Header */
+.navbar {
+  background: #181a1b;
+  border-bottom: 2px solid #23272b;
+}
+.navbar .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.7rem;
+}
+.navbar .nav-link {
+  color: #d1d5db;
+  font-size: 1.05rem;
+  margin-right: 0.6rem;
+  transition: color 0.2s;
+}
+.navbar .nav-link.active, .navbar .nav-link:hover {
+  color: #fff;
+  text-shadow: 0 1px 6px #2e2e2e44;
+}
+.header-search .form-control {
+  background: #23272b;
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  width: 240px;
+}
+
+/* Sidebar */
+.sidebar .card {
+  background: #23272b;
+  border: none;
+  color: #fff;
+}
+.sidebar .card-header {
+  background: #181a1b;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #23272b;
+}
+.sidebar .list-group-item {
+  background: transparent;
+  color: #d1d5db;
+  border: none;
+  padding: 0.7rem 1.1rem;
+  transition: background 0.18s, color 0.18s;
+  cursor: pointer;
+}
+.sidebar .list-group-item:hover, .sidebar .list-group-item.active {
+  background: #2b3035;
+  color: #fff;
+}
+
+/* Product Cards */
+.card.h-100 {
+  background: #23272b;
+  color: #fff;
+  border: 1px solid #23272b;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px #0002;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.card.h-100:hover {
+  box-shadow: 0 6px 24px #0005;
+  transform: translateY(-2px) scale(1.02);
+}
+.card-img-top {
+  border-radius: 12px 12px 0 0;
+  object-fit: cover;
+  height: 170px;
+  background: #181a1b;
+}
+.card-title {
+  font-size: 1.12rem;
+  font-weight: 700;
+}
+.card-text {
+  color: #d1d5db;
+}
+
+/* Responsive tweaks */
+@media (max-width: 991px) {
+  .header-search .form-control {
+    width: 100px;
+  }
+}

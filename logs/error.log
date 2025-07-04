@@ -1,0 +1,256 @@
+[05-Jul-2025 01:03:23 Africa/Dar_es_Salaam] PHP Warning:  Undefined variable $pdo in C:\wamp64\www\ak23stk\product-details.php on line 36
+[05-Jul-2025 01:03:23 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:03:23 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\product-details.php:0
+[05-Jul-2025 01:03:23 Africa/Dar_es_Salaam] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\wamp64\www\ak23stk\product-details.php:36
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\ak23stk\product-details.php on line 36
+[05-Jul-2025 01:08:59 Africa/Dar_es_Salaam] PHP Warning:  Undefined variable $pdo in C:\wamp64\www\ak23stk\index.php on line 45
+[05-Jul-2025 01:08:59 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:08:59 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:08:59 Africa/Dar_es_Salaam] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\wamp64\www\ak23stk\index.php:45
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\ak23stk\index.php on line 45
+[05-Jul-2025 01:10:16 Africa/Dar_es_Salaam] PHP Fatal error:  Cannot use try without catch or finally in C:\wamp64\www\ak23stk\init.php on line 15
+[05-Jul-2025 01:10:16 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:10:16 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:11:05 Africa/Dar_es_Salaam] PHP Warning:  Constant ROOT_PATH already defined in C:\wamp64\www\ak23stk\init.php on line 12
+[05-Jul-2025 01:11:05 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:11:05 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:11:05 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:11:05 Africa/Dar_es_Salaam] PHP   3. define($constant_name = 'ROOT_PATH', $value = 'C:\\wamp64\\www\\') C:\wamp64\www\ak23stk\init.php:12
+[05-Jul-2025 01:11:05 Africa/Dar_es_Salaam] PHP Warning:  Constant INCLUDES_PATH already defined in C:\wamp64\www\ak23stk\init.php on line 13
+[05-Jul-2025 01:11:05 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:11:05 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:11:05 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:11:05 Africa/Dar_es_Salaam] PHP   3. define($constant_name = 'INCLUDES_PATH', $value = 'C:\\wamp64\\www\\ak23stk\\includes\\') C:\wamp64\www\ak23stk\init.php:13
+[05-Jul-2025 01:11:05 Africa/Dar_es_Salaam] PHP Warning:  require_once(C:\wamp64\www\ak23stk/_global/config.php): Failed to open stream: No such file or directory in C:\wamp64\www\ak23stk\init.php on line 24
+[05-Jul-2025 01:11:05 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:11:05 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:11:05 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:11:05 Africa/Dar_es_Salaam] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\wamp64\www\ak23stk/_global/config.php' (include_path='.;C:\php\pear') in C:\wamp64\www\ak23stk\init.php:24
+Stack trace:
+#0 C:\wamp64\www\ak23stk\index.php(11): require_once()
+#1 {main}
+  thrown in C:\wamp64\www\ak23stk\init.php on line 24
+[05-Jul-2025 01:12:06 Africa/Dar_es_Salaam] Database connection error: SQLSTATE[HY000] [1049] Unknown database 'ak23stk'
+[05-Jul-2025 01:14:02 Africa/Dar_es_Salaam] Database connection error: SQLSTATE[HY000] [1049] Unknown database 'ak23stk'
+[05-Jul-2025 01:18:14 Africa/Dar_es_Salaam] Database connection error: SQLSTATE[HY000] [1049] Unknown database 'ak23stk'
+[05-Jul-2025 01:19:29 Africa/Dar_es_Salaam] Database connection error: SQLSTATE[HY000] [1049] Unknown database 'ak23stk'
+[05-Jul-2025 01:20:20 Africa/Dar_es_Salaam] PHP Warning:  Undefined variable $pdo in C:\wamp64\www\ak23stk\product.php on line 20
+[05-Jul-2025 01:20:20 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:20:20 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\product.php:0
+[05-Jul-2025 01:20:20 Africa/Dar_es_Salaam] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\wamp64\www\ak23stk\product.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\ak23stk\product.php on line 20
+[05-Jul-2025 01:20:30 Africa/Dar_es_Salaam] PHP Warning:  Undefined variable $pdo in C:\wamp64\www\ak23stk\product.php on line 20
+[05-Jul-2025 01:20:30 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:20:30 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\product.php:0
+[05-Jul-2025 01:20:30 Africa/Dar_es_Salaam] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\wamp64\www\ak23stk\product.php:20
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\ak23stk\product.php on line 20
+[05-Jul-2025 01:20:55 Africa/Dar_es_Salaam] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\wamp64\www\ak23stk\categories.php:53
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\ak23stk\categories.php on line 53
+[05-Jul-2025 01:20:59 Africa/Dar_es_Salaam] PHP Warning:  Undefined variable $pdo in C:\wamp64\www\ak23stk\login.php on line 61
+[05-Jul-2025 01:20:59 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:20:59 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\login.php:0
+[05-Jul-2025 01:20:59 Africa/Dar_es_Salaam] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\wamp64\www\ak23stk\login.php:61
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\ak23stk\login.php on line 61
+[05-Jul-2025 01:21:03 Africa/Dar_es_Salaam] PHP Warning:  Undefined variable $pdo in C:\wamp64\www\ak23stk\support.php on line 28
+[05-Jul-2025 01:21:03 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:21:03 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\support.php:0
+[05-Jul-2025 01:21:03 Africa/Dar_es_Salaam] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\wamp64\www\ak23stk\support.php:28
+Stack trace:
+#0 {main}
+  thrown in C:\wamp64\www\ak23stk\support.php on line 28
+[05-Jul-2025 01:21:05 Africa/Dar_es_Salaam] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ak23stk\inc\_global\views\page_start.php:11) in C:\wamp64\www\ak23stk\medias.php on line 11
+[05-Jul-2025 01:21:05 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:21:05 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\medias.php:0
+[05-Jul-2025 01:21:05 Africa/Dar_es_Salaam] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\ak23stk\medias.php:11
+[05-Jul-2025 01:25:26 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_HOST already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 7
+[05-Jul-2025 01:25:26 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:25:26 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:25:26 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:25:26 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_USER already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 8
+[05-Jul-2025 01:25:26 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:25:26 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:25:26 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:25:26 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_PASS already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 9
+[05-Jul-2025 01:25:26 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:25:26 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:25:26 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:25:26 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_NAME already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 10
+[05-Jul-2025 01:25:26 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:25:26 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:25:26 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:32:30 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_HOST already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 7
+[05-Jul-2025 01:32:30 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:32:30 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\product.php:0
+[05-Jul-2025 01:32:30 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\product.php:11
+[05-Jul-2025 01:32:30 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_USER already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 8
+[05-Jul-2025 01:32:30 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:32:30 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\product.php:0
+[05-Jul-2025 01:32:30 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\product.php:11
+[05-Jul-2025 01:32:30 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_PASS already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 9
+[05-Jul-2025 01:32:30 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:32:30 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\product.php:0
+[05-Jul-2025 01:32:30 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\product.php:11
+[05-Jul-2025 01:32:30 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_NAME already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 10
+[05-Jul-2025 01:32:30 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:32:30 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\product.php:0
+[05-Jul-2025 01:32:30 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\product.php:11
+[05-Jul-2025 01:45:43 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_HOST already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 7
+[05-Jul-2025 01:45:43 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:45:43 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\requests.php:0
+[05-Jul-2025 01:45:43 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\requests.php:5
+[05-Jul-2025 01:45:43 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_USER already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 8
+[05-Jul-2025 01:45:43 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:45:43 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\requests.php:0
+[05-Jul-2025 01:45:43 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\requests.php:5
+[05-Jul-2025 01:45:43 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_PASS already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 9
+[05-Jul-2025 01:45:43 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:45:43 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\requests.php:0
+[05-Jul-2025 01:45:43 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\requests.php:5
+[05-Jul-2025 01:45:43 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_NAME already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 10
+[05-Jul-2025 01:45:43 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:45:43 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\requests.php:0
+[05-Jul-2025 01:45:43 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\requests.php:5
+[05-Jul-2025 01:46:21 Africa/Dar_es_Salaam] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ak23stk\inc\_global\views\page_start.php:11) in C:\wamp64\www\ak23stk\medias.php on line 11
+[05-Jul-2025 01:46:21 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:46:21 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\medias.php:0
+[05-Jul-2025 01:46:21 Africa/Dar_es_Salaam] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\ak23stk\medias.php:11
+[05-Jul-2025 01:46:25 Africa/Dar_es_Salaam] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ak23stk\inc\_global\views\page_start.php:11) in C:\wamp64\www\ak23stk\medias.php on line 11
+[05-Jul-2025 01:46:25 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:46:25 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\medias.php:0
+[05-Jul-2025 01:46:25 Africa/Dar_es_Salaam] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\ak23stk\medias.php:11
+[05-Jul-2025 01:47:29 Africa/Dar_es_Salaam] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ak23stk\inc\_global\views\page_start.php:11) in C:\wamp64\www\ak23stk\medias.php on line 11
+[05-Jul-2025 01:47:29 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:47:29 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\medias.php:0
+[05-Jul-2025 01:47:29 Africa/Dar_es_Salaam] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\ak23stk\medias.php:11
+[05-Jul-2025 01:51:17 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_HOST already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 7
+[05-Jul-2025 01:51:17 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:51:17 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\product-details.php:0
+[05-Jul-2025 01:51:17 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\product-details.php:7
+[05-Jul-2025 01:51:17 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_USER already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 8
+[05-Jul-2025 01:51:17 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:51:17 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\product-details.php:0
+[05-Jul-2025 01:51:17 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\product-details.php:7
+[05-Jul-2025 01:51:17 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_PASS already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 9
+[05-Jul-2025 01:51:17 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:51:17 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\product-details.php:0
+[05-Jul-2025 01:51:17 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\product-details.php:7
+[05-Jul-2025 01:51:17 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_NAME already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 10
+[05-Jul-2025 01:51:17 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:51:17 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\product-details.php:0
+[05-Jul-2025 01:51:17 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\product-details.php:7
+[05-Jul-2025 01:51:20 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_HOST already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 7
+[05-Jul-2025 01:51:20 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:51:20 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:51:20 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:51:20 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_USER already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 8
+[05-Jul-2025 01:51:20 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:51:20 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:51:20 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:51:20 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_PASS already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 9
+[05-Jul-2025 01:51:20 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:51:20 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:51:20 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:51:20 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_NAME already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 10
+[05-Jul-2025 01:51:20 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:51:20 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:51:20 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:52:19 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_HOST already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 7
+[05-Jul-2025 01:52:19 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:52:19 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:52:19 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:52:19 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_USER already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 8
+[05-Jul-2025 01:52:19 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:52:19 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:52:19 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:52:19 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_PASS already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 9
+[05-Jul-2025 01:52:19 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:52:19 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:52:19 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:52:19 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_NAME already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 10
+[05-Jul-2025 01:52:19 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:52:19 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:52:19 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:53:43 Africa/Dar_es_Salaam] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ak23stk\inc\_global\views\page_start.php:11) in C:\wamp64\www\ak23stk\medias.php on line 11
+[05-Jul-2025 01:53:43 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:53:43 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\medias.php:0
+[05-Jul-2025 01:53:43 Africa/Dar_es_Salaam] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\ak23stk\medias.php:11
+[05-Jul-2025 01:55:05 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_HOST already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 7
+[05-Jul-2025 01:55:05 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:55:05 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:55:05 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:55:05 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_USER already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 8
+[05-Jul-2025 01:55:05 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:55:05 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:55:05 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:55:05 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_PASS already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 9
+[05-Jul-2025 01:55:05 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:55:05 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:55:05 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:55:05 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_NAME already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 10
+[05-Jul-2025 01:55:05 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:55:05 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:55:05 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:56:27 Africa/Nairobi] PHP Warning:  Constant DB_HOST already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 7
+[05-Jul-2025 01:56:27 Africa/Nairobi] PHP Stack trace:
+[05-Jul-2025 01:56:27 Africa/Nairobi] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:56:27 Africa/Nairobi] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:10
+[05-Jul-2025 01:56:27 Africa/Nairobi] PHP Warning:  Constant DB_USER already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 8
+[05-Jul-2025 01:56:27 Africa/Nairobi] PHP Stack trace:
+[05-Jul-2025 01:56:27 Africa/Nairobi] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:56:27 Africa/Nairobi] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:10
+[05-Jul-2025 01:56:27 Africa/Nairobi] PHP Warning:  Constant DB_PASS already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 9
+[05-Jul-2025 01:56:27 Africa/Nairobi] PHP Stack trace:
+[05-Jul-2025 01:56:27 Africa/Nairobi] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:56:27 Africa/Nairobi] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:10
+[05-Jul-2025 01:56:27 Africa/Nairobi] PHP Warning:  Constant DB_NAME already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 10
+[05-Jul-2025 01:56:27 Africa/Nairobi] PHP Stack trace:
+[05-Jul-2025 01:56:27 Africa/Nairobi] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:56:27 Africa/Nairobi] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:10
+[05-Jul-2025 01:56:46 Africa/Nairobi] PHP Warning:  Constant DB_HOST already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 7
+[05-Jul-2025 01:56:46 Africa/Nairobi] PHP Stack trace:
+[05-Jul-2025 01:56:46 Africa/Nairobi] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:56:46 Africa/Nairobi] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:10
+[05-Jul-2025 01:56:46 Africa/Nairobi] PHP Warning:  Constant DB_USER already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 8
+[05-Jul-2025 01:56:46 Africa/Nairobi] PHP Stack trace:
+[05-Jul-2025 01:56:46 Africa/Nairobi] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:56:46 Africa/Nairobi] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:10
+[05-Jul-2025 01:56:46 Africa/Nairobi] PHP Warning:  Constant DB_PASS already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 9
+[05-Jul-2025 01:56:46 Africa/Nairobi] PHP Stack trace:
+[05-Jul-2025 01:56:46 Africa/Nairobi] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:56:46 Africa/Nairobi] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:10
+[05-Jul-2025 01:56:46 Africa/Nairobi] PHP Warning:  Constant DB_NAME already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 10
+[05-Jul-2025 01:56:46 Africa/Nairobi] PHP Stack trace:
+[05-Jul-2025 01:56:46 Africa/Nairobi] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:56:46 Africa/Nairobi] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:10
+[05-Jul-2025 01:57:16 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_HOST already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 7
+[05-Jul-2025 01:57:16 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:57:16 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:57:16 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:57:16 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_USER already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 8
+[05-Jul-2025 01:57:16 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:57:16 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:57:16 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:57:16 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_PASS already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 9
+[05-Jul-2025 01:57:16 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:57:16 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:57:16 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 01:57:16 Africa/Dar_es_Salaam] PHP Warning:  Constant DB_NAME already defined in C:\wamp64\www\ak23stk\database\db_config.php on line 10
+[05-Jul-2025 01:57:16 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 01:57:16 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\index.php:0
+[05-Jul-2025 01:57:16 Africa/Dar_es_Salaam] PHP   2. require_once() C:\wamp64\www\ak23stk\index.php:11
+[05-Jul-2025 02:13:32 Africa/Dar_es_Salaam] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\wamp64\www\ak23stk\inc\_global\views\page_start.php:11) in C:\wamp64\www\ak23stk\medias.php on line 11
+[05-Jul-2025 02:13:32 Africa/Dar_es_Salaam] PHP Stack trace:
+[05-Jul-2025 02:13:32 Africa/Dar_es_Salaam] PHP   1. {main}() C:\wamp64\www\ak23stk\medias.php:0
+[05-Jul-2025 02:13:32 Africa/Dar_es_Salaam] PHP   2. header($header = 'Location: login.php') C:\wamp64\www\ak23stk\medias.php:11

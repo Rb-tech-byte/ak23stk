@@ -1,0 +1,6 @@
+{
+    "require": {
+        "catfan/medoo": "^2.2",
+        "twilio/sdk": "^8.6"
+    }
+}

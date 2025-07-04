@@ -1,0 +1,18 @@
+RewriteEngine On
+RewriteRule ^product/([^/]+)$ product-details.php?slug=$1 [L,QSA]
+RewriteRule ^order_details/([0-9]+)$ order_details.php?id=$1 [L,QSA]
+RewriteRule ^payment_details/([0-9]+)$ payment_details.php?id=$1 [L,QSA]
+RewriteRule ^user_details/([0-9]+)$ user_details.php?id=$1 [L,QSA]
+RewriteRule ^category/([^/]+)$ categories.php?slug=$1 [L,QSA]
+RewriteRule ^media/([0-9]+)$ medias.php?id=$1 [L,QSA]
+RewriteRule ^ticket/([0-9]+)$ support.php?id=$1 [L,QSA]
+# Enable URL rewriting
+RewriteEngine On
+
+# Redirect to download handler
+RewriteRule ^download/([a-zA-Z0-9]+)$ download.php?token=$1 [L,QSA]
+
+# Prevent direct access to sensitive files
+<FilesMatch "(config\.php|functions\.php|evmak-callback\.php)">
+    Require all denied
+</FilesMatch>
